@@ -1,0 +1,18 @@
+
+#datos .contenedor{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+#datos article{
+    margin: 25px;
+
+}
+#datos img{
+    width: 100%;
+    max-width: 280px;
+}
+#datos ul,h3{
+    text-align: center;
+}

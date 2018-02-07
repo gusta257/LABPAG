@@ -1,0 +1,102 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<body>
+  <div hidden>
+    <script type="text/javascript">
+      if (document.body)
+      {
+      var ancho = (document.body.clientWidth);
+      var alto = (document.body.clientHeight);
+      }
+      else
+      {
+      var ancho = (window.innerWidth);
+      var alto = (window.innerHeight);
+      }
+      console.log("El tamaño de la ventana actual: " + ancho );
+      if (ancho>1000) 
+          console.log("es un desktop");
+      else 
+        if (ancho>700 && ancho<1000) 
+            console.log("es una tablet");
+        else 
+            console.log("es un movil");
+    </script>
+
+</div>
+     <section id="banner">
+        <img src="images/carbanner.jpg">
+        
+    </section>
+    
+    <section id="nombre">
+        <h1> Gustavo Adolfo De Leon Tobias</h1>
+    </section>
+    
+    <section id = "datos">
+        <div class="contenedor">
+            <article>
+              <img src="images/foto.jpg">  
+              <h3>  Myself  </h3>
+              <ul>
+              <li type="circle">Universidad del Valle.</li>
+              <li type="circle">19 years.</li>
+              <li type="circle">Systems Engineering .</li>
+              </ul>    
+            </article>
+            <article>
+              <img src="images/skill.jpg">  
+              <h3>  Skills  </h3> 
+              <ul>
+              <li type="circle">Java.</li>
+              <li type="circle">Python.</li>
+              <li type="circle">Math.</li>
+              </ul>  
+            </article>
+
+
+            <article>
+              <img src="images/estudios.png"> 
+              <h3>  Studies  </h3> 
+              <ul>
+              <li type="circle">University's third semester.</li>
+              <li type="circle">Alianza Francesa.</li>
+              <li type="circle">Bachelor in sciences.</li>
+              </ul>    
+            </article>
+            <article>
+              <img src="images/hobbies.jpg"> 
+              <h3>  Hobbies  </h3> 
+              <ul>
+              <li type="circle">Play Videogames.</li>
+              <li type="circle">Watch soccer.</li>
+              <li type="circle">Movies.</li>
+              </ul>    
+            </article>
+            <article>
+              <img src="images/idioma.png"> 
+              <h3>  Languages  </h3> 
+              <ul>
+              <li type="circle">Spanish.</li>
+              <li type="circle">English.</li>
+              <li type="circle">French.</li>
+              </ul>    
+            </article>
+            <article>
+              <img src="images/contactme.png"> 
+              <h3>  Contact me  </h3> 
+              <ul>
+              <li type="circle">Gdeleontobias@gmail.com </li>
+              <li type="circle">35241536</li>
+              
+              </ul>    
+            </article>
+            
+            
+        </div>
+    </section>
+</body>
+
+
+
